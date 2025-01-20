@@ -7,7 +7,7 @@
         "php": "^8.0",
         "sylius/grid-bundle": "^1.11",
         "sylius/locale-bundle": "^1.11",
-        "sylius/mailer-bundle": "^1.6",
+        "sylius/mailer-bundle": "^2.0",
         "sylius/resource-bundle": "^1.9",
         "sylius/ui-bundle": "^1.11",
         "sylius/user-bundle": "^1.11",
