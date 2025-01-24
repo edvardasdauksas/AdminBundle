@@ -2,7 +2,7 @@ admin_platform_admin_login:
     path: /login
     methods: [GET]
     defaults:
-        _controller: sylius.controller.security:loginAction
+        _controller: sylius.controller.security::loginAction
         _sylius:
             template: '@PlatformAdmin/Security/login.html.twig'
             permission: true
@@ -11,7 +11,7 @@ admin_platform_admin_login_check:
     path: /login-check
     methods: [POST]
     defaults:
-        _controller: sylius.controller.security:checkAction
+        _controller: sylius.controller.security::checkAction
 
 admin_platform_admin_logout:
     path: /logout
